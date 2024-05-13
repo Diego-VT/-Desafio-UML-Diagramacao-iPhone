@@ -4,6 +4,14 @@ public class Iphone {
 	public void reproduzirMusica() {
 		System.out.println("Reproduzindo Musicas");
 	}
+	
+	public void pararMusica() {
+		System.out.println("Musica Pausada");
+	}
+	
+	public void escolherMusica() {
+		System.out.println("Nova Musica foi escolhida");
+	}
 
 	public void fazerLigacao(String numero) {
 		System.out.println("Digitando número");
@@ -23,5 +31,7 @@ public class Iphone {
 		System.out.println("Informe a URL da pagina da internet.");
 
 	}
-
+	
+	
+	
 }
